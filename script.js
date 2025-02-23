@@ -29,7 +29,7 @@ async function searching(){
         const footer=document.createElement("a");
         footer.href=x.links.html;
         footer.target="_blank";
-        footer.textContent=x.alt_description;   
+        footer.textContent=x.alt_description.toUpperCase();
         wrapit.appendChild(image);
         wrapit.appendChild(footer);
         display.appendChild(wrapit);
